@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+	width:800px;
+	height:800px;
+	margin:100px auto;
+	
+}
+.bigCircle{
+	width:400px;
+	height:400px;
+	background:#09F;
+	position:relative;
+	-webkit-border-radius:210px;
+	transition:all 0.5s;
+	background:url(bg.png) no-repeat ;
+	line-height:400px;
+	text-align:center;
+	font-size:26px;
+	border:20px solid #360;;
+}
+
+.text{
+	border:solid 2px #000;
+	background:rgba(255,255,0,0.5);
+	padding:10px;
+	border-radius:10px;
+	col9or:#000;
+	font-weight:bold;
+
+}
+
+.smallCircle1{
+	width:100px;
+	height:100px;
+	background:#F00;
+	position:absolute;	
+	left:-50px;
+	top:150px;
+	-webkit-border-radius:50px;
+		transition:all 0.5s;
+		background:url(1.png) no-repeat ;
+
+
+}
+
+.smallCircle2{
+	width:100px;
+	height:100px;
+	background:#F00;
+	position:absolute;	
+	left:150px;
+	top:350px;
+	-webkit-border-radius:50px;
+	transition:all 0.5s;
+	background:url(2.png) no-repeat ;
+
+
+
+
+}
+
+.smallCircle3{
+	width:100px;
+	height:100px;
+	background:#F00;
+	position:absolute;	
+	left:350px;
+	top:150px;
+	-webkit-border-radius:50px;
+     transition:all 0.5s;
+	 background:url(3.png) no-repeat ;
+
+
+
+
+}
+
+.smallCircle4{
+	width:100px;
+	height:100px;
+	background:#F00;
+	position:absolute;	
+	left:150px;
+	top:-50px;
+	-webkit-border-radius:50px;
+	transition:all 0.5s;
+	background:url(4.png) no-repeat;
+	
+
+
+
+}
+
+
+.smallCircle1:hover, .smallCircle2:hover, .smallCircle3:hover, .smallCircle4:hover{
+	-webkit-transform:scale(1.5);
+	border-radius:100px;
+	border:5px solid #C90;
+}
+
+
+.bigCircle:hover{
+	
+}
+
+
+

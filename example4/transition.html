@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+.box
+{
+    border: 6px solid #06F;
+	height: 120px;
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-left: 10px;
+
+}
+.hiddenBox
+{
+    position: absolute;
+	bottom: -50px;
+	background-color: #06F;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	padding: 5px;
+    /* border: solid; */
+    transition: 2s;
+}
+.box:hover .hiddenBox
+{
+    bottom: 0px;	
+
+}
+span{
+    color:white;
+    font-weight: bold;
+}
+span span
+{
+    color: tomato;
+    font-weight: 100;
+}
+.box img {
+	height: 120px;
+	width: 200px;
+}
+
+    </style>
+</head>
+<body>
+   
+    <div class="box"><img src="twitter2.jpg"><div class="hiddenBox"><span>Twitter<br/><span>Socail network</span></div></div>
+    <div class="box"><img src="fb.jpg"><div class="hiddenBox"><span>Face book<br/><span>Socail network</span></div></div>
+    <div class="box"><img src="instagram.jpg"><div class="hiddenBox"><span>Instagram<br/><span>Socail network</span></div></div>
+    <div class="box"><img src="whatsapp.jpg"><div class="hiddenBox"><span>whatsapp<br/><span>Socail network</span></div></div>
+
+</body>
+</html>

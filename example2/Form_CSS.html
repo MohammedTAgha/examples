@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    .input_one {
+        font-size: 120%;
+        /* color: #f0b84a; */
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 10px 10px 5px 35px;
+        background-repeat: no-repeat;
+        /* background-position: 2px ; */
+        display: block;
+        margin-bottom: 10px;
+        border-left-color:lightseagreen;
+        border-left-width: 10px;
+    }
+      input:focus {
+        background-color: #ffffff;
+        border: 1px solid #b1e1e4;
+        border-left-color:lightseagreen;
+        border-left-width: 10px;
+        }
+        input.email{
+            background-image: url("email.jpg");
+            
+        }
+        input.web{
+            background-image: url("web.jpg");
+        }
+        input.twitter{
+            background-image: url("twitter.jpg");
+        }
+
+fieldset {
+  width: 300px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+ }
+legend {
+  background-color: #efefef;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;}
+
+  input.submit{
+  color:black;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #b9e4e3;
+  padding: 8px;
+  }
+
+  input.submit:hover {
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #cbdba0;
+ 
+}
+.bb
+{
+    font-size: 120%;
+        color: #f0b84a;
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 10px 10px 5px 35px;
+        background-repeat: no-repeat;
+        background-position: 2px ;
+        display: block;
+        margin-bottom: 10px;
+}
+a{
+cursor: wait;}  
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Information</legend>
+        <input type="text" class="twitter input_one">
+        <input type="text" class="web input_one">
+        <input type="email" class="email input_one">
+        <input type="submit" class="submit bb" value="Register">
+        
+    </fieldset>
+    </form>
+</body>
+</html>
